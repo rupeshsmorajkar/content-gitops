@@ -2,6 +2,8 @@ name: Python application
 
 on:
   push:
+    branches:
+      - release-jul24
     paths:
     - 'python/*'
       
